@@ -1,3 +1,22 @@
 train2017/
 val2017/
 download/
+# dataset
+train2017/
+val2017/
+download/
+
+# checkpoints & outputs
+checkpoints/
+*/checkpoints/
+runs/
+*.json
+
+# model
+*.pt
+*.pth
+*.ckpt
+
+# cache
+__pycache__/
+.ipynb_checkpoints/
