@@ -4,7 +4,7 @@
 * Xác định vị trí (Bounding Box) và phân loại nhiều vật thể trong cùng một bức ảnh.
 
 # **Notebook này thực hiện quá trình huấn luyện mô hình phát hiện vật thể trên tập dữ liệu đầy đủ COCO 2017**
-* Khác với phiên bản thử nghiệm (chỉ chạy trên tập val2017 5000 ảnh), notebook này sẽ huấn luyện trên toàn bộ tập train2017 với hơb 118k ảnh gốc
+* Khác với phiên bản thử nghiệm, notebook này sẽ huấn luyện trên toàn bộ tập train2017 với hơb 118k ảnh gốc
 * Tập huấn luyện (Training Set): Sử dụng train2017 (~118.000 ảnh, 18GB).
   * Mục đích: Dùng để mô hình học các đặc trưng và cập nhật trọng số
 * Tập kiểm định (Validation Set): Sử dụng val2017 (5.000 ảnh, 1GB).
